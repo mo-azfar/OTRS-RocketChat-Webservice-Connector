@@ -3,6 +3,11 @@
 - Enable the integration from RocketChat (agent) to OTRS.
 - by DM a bot, agent can get a list of their ticket, add note, etc.
 
+Rules check 
+		
+		- RocketChat token must be same with token registered in OTRS  
+		- RockeChat user account name must be registered in the OTRS agent profile.  
+
 [![Capture.png](https://i.postimg.cc/5tZBMsdp/Capture.png)](https://postimg.cc/DWPJrdzb)  
 
 [![Capture2.png](https://i.postimg.cc/k4hM6pwP/Capture2.png)](https://postimg.cc/1nw1bMLv) 
