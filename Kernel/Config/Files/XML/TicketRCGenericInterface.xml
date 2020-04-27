@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="GenericInterface::Operation::Module###RocketChat::TicketRC" Required="0" Valid="1">
+        <Description Translatable="1">GenericInterface module registration for the operation layer.</Description>
+        <Navigation>GenericInterface::Operation::ModuleRegistration</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Name">TicketRC</Item>
+                <Item Key="Controller">TicketRC</Item>
+                <Item Key="ConfigDialog">AdminGenericInterfaceOperationDefault</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="GenericInterface::Operation::TicketRC###UsernameField" Required="0" Valid="1">
+        <Description Translatable="1">Defines the field that hold the RocketChat username for Agent (for incoming TicketRC Generic Interface)</Description>
+        <Navigation>GenericInterface::Operation::TicketRC</Navigation>
+        <Value>
+            <Item ValueType="String" ValueRegex="">UserRCUsername</Item>
+        </Value>
+    </Setting>
+    <Setting Name="GenericInterface::Operation::TicketRC###Token" Required="0" Valid="1">
+        <Description Translatable="1">Defines the token value that will be send by Rocket Chat outgoing webhook (for incoming TicketRC Generic Interface)</Description>
+        <Navigation>GenericInterface::Operation::TicketRC</Navigation>
+        <Value>
+            <Item ValueType="String" ValueRegex="">RocketChat Outgoing Webhook Token Here</Item>
+        </Value>
+    </Setting>
+</otrs_config>
