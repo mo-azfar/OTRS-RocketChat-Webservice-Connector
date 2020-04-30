@@ -2,6 +2,7 @@
 - Built for OTRS CE V6.0
 - Enable the integration from RocketChat (agent) to OTRS.
 - by DM a bot, agent can get a list of their ticket, add note, etc.
+- **Available upon request**  
 
 Rules check 
 		
