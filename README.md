@@ -3,6 +3,14 @@
 - This module enable the integration from RocketChat (as an agent) to OTRS.
 - by DM a bot, agent can get a list of their ticket, add note, etc.
 
+		Used CPAN module :
+		
+		Encode qw(decode encode)
+		Digest::MD5 qw(md5_hex)
+		Date::Parse
+		MIME::Base64()
+
+
 1. Create outgoing webhook at RC
 
 		- Event trigger: message sent
